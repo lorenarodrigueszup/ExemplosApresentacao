@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC28952214AA82500538788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC28951214AA82500538788 /* AppDelegate.swift */; };
+		5CC28954214AA82500538788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC28953214AA82500538788 /* ViewController.swift */; };
+		5CC28957214AA82500538788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC28955214AA82500538788 /* Main.storyboard */; };
+		5CC28959214AA83300538788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC28958214AA83300538788 /* Assets.xcassets */; };
+		5CC2895C214AA83300538788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2895A214AA83300538788 /* LaunchScreen.storyboard */; };
+		5CC28967214AA83300538788 /* ExemploCicloTelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC28966214AA83300538788 /* ExemploCicloTelasTests.swift */; };
+		5CC28972214AA83400538788 /* ExemploCicloTelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC28971214AA83400538788 /* ExemploCicloTelasUITests.swift */; };
+		5CC28980214AA8E000538788 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2897F214AA8E000538788 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC28963214AA83300538788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC28946214AA82500538788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC2894D214AA82500538788;
+			remoteInfo = ExemploCicloTelas;
+		};
+		5CC2896E214AA83400538788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC28946214AA82500538788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC2894D214AA82500538788;
+			remoteInfo = ExemploCicloTelas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC2894E214AA82500538788 /* ExemploCicloTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploCicloTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC28951214AA82500538788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CC28953214AA82500538788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CC28956214AA82500538788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC28958214AA83300538788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC2895B214AA83300538788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC2895D214AA83300538788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC28962214AA83300538788 /* ExemploCicloTelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploCicloTelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC28966214AA83300538788 /* ExemploCicloTelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExemploCicloTelasTests.swift; sourceTree = "<group>"; };
+		5CC28968214AA83300538788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC2896D214AA83400538788 /* ExemploCicloTelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploCicloTelasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC28971214AA83400538788 /* ExemploCicloTelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExemploCicloTelasUITests.swift; sourceTree = "<group>"; };
+		5CC28973214AA83400538788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC2897F214AA8E000538788 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC2894B214AA82500538788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2895F214AA83300538788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2896A214AA83400538788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC28945214AA82500538788 = {
+			isa = PBXGroup;
+			children = (
+				5CC28950214AA82500538788 /* ExemploCicloTelas */,
+				5CC28965214AA83300538788 /* ExemploCicloTelasTests */,
+				5CC28970214AA83400538788 /* ExemploCicloTelasUITests */,
+				5CC2894F214AA82500538788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC2894F214AA82500538788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2894E214AA82500538788 /* ExemploCicloTelas.app */,
+				5CC28962214AA83300538788 /* ExemploCicloTelasTests.xctest */,
+				5CC2896D214AA83400538788 /* ExemploCicloTelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC28950214AA82500538788 /* ExemploCicloTelas */ = {
+			isa = PBXGroup;
+			children = (
+				5CC28951214AA82500538788 /* AppDelegate.swift */,
+				5CC28953214AA82500538788 /* ViewController.swift */,
+				5CC28955214AA82500538788 /* Main.storyboard */,
+				5CC2897F214AA8E000538788 /* SecondViewController.swift */,
+				5CC28958214AA83300538788 /* Assets.xcassets */,
+				5CC2895A214AA83300538788 /* LaunchScreen.storyboard */,
+				5CC2895D214AA83300538788 /* Info.plist */,
+			);
+			path = ExemploCicloTelas;
+			sourceTree = "<group>";
+		};
+		5CC28965214AA83300538788 /* ExemploCicloTelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC28966214AA83300538788 /* ExemploCicloTelasTests.swift */,
+				5CC28968214AA83300538788 /* Info.plist */,
+			);
+			path = ExemploCicloTelasTests;
+			sourceTree = "<group>";
+		};
+		5CC28970214AA83400538788 /* ExemploCicloTelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC28971214AA83400538788 /* ExemploCicloTelasUITests.swift */,
+				5CC28973214AA83400538788 /* Info.plist */,
+			);
+			path = ExemploCicloTelasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC2894D214AA82500538788 /* ExemploCicloTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC28976214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelas" */;
+			buildPhases = (
+				5CC2894A214AA82500538788 /* Sources */,
+				5CC2894B214AA82500538788 /* Frameworks */,
+				5CC2894C214AA82500538788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExemploCicloTelas;
+			productName = ExemploCicloTelas;
+			productReference = 5CC2894E214AA82500538788 /* ExemploCicloTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC28961214AA83300538788 /* ExemploCicloTelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC28979214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelasTests" */;
+			buildPhases = (
+				5CC2895E214AA83300538788 /* Sources */,
+				5CC2895F214AA83300538788 /* Frameworks */,
+				5CC28960214AA83300538788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC28964214AA83300538788 /* PBXTargetDependency */,
+			);
+			name = ExemploCicloTelasTests;
+			productName = ExemploCicloTelasTests;
+			productReference = 5CC28962214AA83300538788 /* ExemploCicloTelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CC2896C214AA83400538788 /* ExemploCicloTelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC2897C214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelasUITests" */;
+			buildPhases = (
+				5CC28969214AA83400538788 /* Sources */,
+				5CC2896A214AA83400538788 /* Frameworks */,
+				5CC2896B214AA83400538788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC2896F214AA83400538788 /* PBXTargetDependency */,
+			);
+			name = ExemploCicloTelasUITests;
+			productName = ExemploCicloTelasUITests;
+			productReference = 5CC2896D214AA83400538788 /* ExemploCicloTelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC28946214AA82500538788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lorena Rodrigues Bruno";
+				TargetAttributes = {
+					5CC2894D214AA82500538788 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5CC28961214AA83300538788 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5CC2894D214AA82500538788;
+					};
+					5CC2896C214AA83400538788 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5CC2894D214AA82500538788;
+					};
+				};
+			};
+			buildConfigurationList = 5CC28949214AA82500538788 /* Build configuration list for PBXProject "ExemploCicloTelas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC28945214AA82500538788;
+			productRefGroup = 5CC2894F214AA82500538788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC2894D214AA82500538788 /* ExemploCicloTelas */,
+				5CC28961214AA83300538788 /* ExemploCicloTelasTests */,
+				5CC2896C214AA83400538788 /* ExemploCicloTelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC2894C214AA82500538788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC2895C214AA83300538788 /* LaunchScreen.storyboard in Resources */,
+				5CC28959214AA83300538788 /* Assets.xcassets in Resources */,
+				5CC28957214AA82500538788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC28960214AA83300538788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2896B214AA83400538788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC2894A214AA82500538788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC28980214AA8E000538788 /* SecondViewController.swift in Sources */,
+				5CC28954214AA82500538788 /* ViewController.swift in Sources */,
+				5CC28952214AA82500538788 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC2895E214AA83300538788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC28967214AA83300538788 /* ExemploCicloTelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC28969214AA83400538788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC28972214AA83400538788 /* ExemploCicloTelasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC28964214AA83300538788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC2894D214AA82500538788 /* ExemploCicloTelas */;
+			targetProxy = 5CC28963214AA83300538788 /* PBXContainerItemProxy */;
+		};
+		5CC2896F214AA83400538788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC2894D214AA82500538788 /* ExemploCicloTelas */;
+			targetProxy = 5CC2896E214AA83400538788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC28955214AA82500538788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC28956214AA82500538788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC2895A214AA83300538788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC2895B214AA83300538788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC28974214AA83400538788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC28975214AA83400538788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC28977214AA83400538788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC28978214AA83400538788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CC2897A214AA83400538788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExemploCicloTelas.app/ExemploCicloTelas";
+			};
+			name = Debug;
+		};
+		5CC2897B214AA83400538788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExemploCicloTelas.app/ExemploCicloTelas";
+			};
+			name = Release;
+		};
+		5CC2897D214AA83400538788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExemploCicloTelas;
+			};
+			name = Debug;
+		};
+		5CC2897E214AA83400538788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExemploCicloTelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.lorena.ExemploCicloTelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExemploCicloTelas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC28949214AA82500538788 /* Build configuration list for PBXProject "ExemploCicloTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC28974214AA83400538788 /* Debug */,
+				5CC28975214AA83400538788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC28976214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC28977214AA83400538788 /* Debug */,
+				5CC28978214AA83400538788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC28979214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC2897A214AA83400538788 /* Debug */,
+				5CC2897B214AA83400538788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC2897C214AA83400538788 /* Build configuration list for PBXNativeTarget "ExemploCicloTelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC2897D214AA83400538788 /* Debug */,
+				5CC2897E214AA83400538788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC28946214AA82500538788 /* Project object */;
+}
